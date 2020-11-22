@@ -1,5 +1,10 @@
 # isLaunchFile: Determine if a file was called directly with NodeJS Modules
 
+Determine if a file was called directly with NodeJS Modules.
+
+In NodeJS packages with `"type": "module"`, the `module` and `require` keywords are undefined, so you can't use the old method of `if (!module.parent)`. `isLaunchFile`
+uses `import.meta.url` and `process.argv[0]` to determine if a file was called directly.
+
 ## Installation
 
 ```bash
