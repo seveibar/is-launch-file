@@ -1,9 +1,10 @@
 {
 	"name": "is-launch-file",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
 	"main": "index.js",
 	"license": "MIT",
+	"description": "Determine if a file was called directly with NodeJS Modules.",
 	"scripts": {
 		"test": "npm run ava tests/main.test.js"
 	},
