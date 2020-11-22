@@ -1,0 +1,10 @@
+{
+	"name": "is-launch-file",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"test": "npm run ava tests/main.test.js"
+	}
+}
